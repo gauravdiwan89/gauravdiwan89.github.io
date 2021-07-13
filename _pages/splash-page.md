@@ -1,7 +1,7 @@
 ---
 title: "Splash Page"
 layout: splash
-title: "<br/>"
+title: "Welcome"
 author_profile: true
 permalink: /
 
@@ -51,7 +51,7 @@ feature_row4:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include carousel.html height="40" unit="%" duration="5" %}
+{% include carousel.html height="30" unit="%" duration="5" %}
 
 {% include feature_row %}
 
