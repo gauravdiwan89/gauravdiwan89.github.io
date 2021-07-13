@@ -51,7 +51,7 @@ feature_row4:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include carousel.html height="50" unit="%" duration="7" %}
+{% include carousel.html height="40" unit="%" duration="5" %}
 
 {% include feature_row %}
 
