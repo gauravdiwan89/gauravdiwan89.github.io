@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Gaurav Diwan"
 title_separator          : "-"
 name                     : &name "Gaurav Diwan"
-description              : &description "PostDoc at the University of Heidelberg"
+description              : &description "Post-Doctoral fellow working at the intersection of Protein Structure, Evolutionary Biology and Phylogenetics"
 url                      : https://gauravdiwan89.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gauravdiwan89.github.io"
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Gaurav Diwan"
   avatar           : "profile.png"
-  bio              : "PostDoc | University of Heidelberg"
+  bio              : "Post-Doctoral fellow working in the <a style='color: black;' href='http://www.russelllab.org/'>Russell Group</a> at BioQuant, University of Heidelberg"
   location         : "Heidelberg, Germany"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=F2U2Bm8AAAAJ&view_op=list_works&sortby=pubdate"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0003-3928-3020"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
