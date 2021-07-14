@@ -36,7 +36,7 @@ import pandas as pd
 
 publications = pd.read_csv("markdown_generator/publications.tsv", sep="\t", header=0)
 publications
-
+print(publications)
 
 # ## Escape special characters
 # 
@@ -101,8 +101,9 @@ for row, item in publications.iterrows():
     md += "\nRecommended citation: " + item.citation
     
     md_filename = os.path.basename(md_filename)
+    print(md_filename)
        
-    with open("_publications/" + md_filename, 'w') as f:
+    with open("./_publications/" + md_filename, 'w') as f:
         f.write(md)
 
 
