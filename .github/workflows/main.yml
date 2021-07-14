@@ -16,8 +16,8 @@ jobs:
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
-          pip install pandas
+          sudo pip install pandas
       - name: execute py script
         run: |
           ls -ltr ./
-          python ./markdown_generator/publications.py
+          sudo python ./markdown_generator/publications.py
