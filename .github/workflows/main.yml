@@ -7,11 +7,7 @@ on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
     paths:
-      #- '/markdown_generator/talks.tsv'
-      - '/markdown_generator/publications.tsv'
-      #- '/markdown_generator/teaching.tsv'
-
-
+      - './markdown_generator/publications.tsv'
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -29,7 +25,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install pandas
       - name: execute py script # run sj-gobierno.py to get the latest data
-        run: python markdown_generator/publications.py
+        run: |
+          python ./markdown_generator/publications.py
       #- uses: jannekem/run-python-script-action@v1
       #  with:
       #    script: '/markdown_generator/publications.py' # Python script
