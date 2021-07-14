@@ -19,6 +19,6 @@ jobs:
           pip install pandas
       - name: execute py script
         run: |
-          sudo chmod -R 775 _publications/
+          sudo chmod -R 777 _publications/
           ls -ltr ./
           python ./markdown_generator/publications.py
