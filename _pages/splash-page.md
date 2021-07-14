@@ -6,7 +6,7 @@ author_profile: true
 permalink: /
 excerpt: "<br/><br/><br/><br/><br/><br/>"
 intro: 
-  - excerpt: ''
+  - excerpt: 'Welcome to my website! This website contains my major research directions and achievements. It also contains a not-so-frequently updated blog that contains some of my musings. Cheers!'
 #feature_row:
 #  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
 #    alt: "placeholder image 1"
@@ -49,9 +49,9 @@ feature_row4:
     btn_class: "btn--primary"
 ---
 
-{% include feature_row id="intro" type="center" %}
-
 {% include carousel.html height="30" unit="%" duration="5" %}
+
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
