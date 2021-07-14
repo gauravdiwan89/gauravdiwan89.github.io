@@ -4,7 +4,7 @@ layout: splash
 title: "Welcome"
 author_profile: true
 permalink: /
-
+excerpt: "<br/><br/><br/><br/><br/><br/>"
 intro: 
   - excerpt: ''
 #feature_row:
@@ -24,13 +24,13 @@ intro:
 #    title: "Placeholder 3"
 #    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  - image_path: ../images/og_pa_tree_big.png
+    alt: "phylogeny"
+    title: "Evolutionary history of functions"
+    excerpt: 'Throughout my research career, I have been interested in tracing the evolutionary history of major biological functions. This is also one of the major central questions of Evolutionary Biology. Given the burst of genomic and proteomic information that is available in public repositories such as NCBI and UniProt, we are in an opportune era where one can trace the detailed evolutionary histories of major biological functions by using principles of Orthology, Phylogenetics and Molecular Evolution. For instance, in my PhD work, I traced the [evolutionary history of wobble base pairing in bacteria](https://academic.oup.com/mbe/article/35/8/2046/5017355) and discovered the dynamic evolution of the major enzymes involved in this process. I also found several other genomic correlates that reflect the evolutionary history of these proteins. In my current work, I am now focusing on tracing the evolutionary history of many major functions across the entire tree of life.'
+    #url: "#test-link"
+    #btn_label: "Read More"
+    #btn_class: "btn--primary"
 feature_row3:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
