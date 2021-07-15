@@ -20,8 +20,8 @@ jobs:
       - name: execute py script
         run: |
           sudo chmod -R 777 _publications/
-          ls -ltr ./
           python ./markdown_generator/publications.py
+          ls -ltr _publications/
       - name: Update pages
         run: |
           git config --global user.name 'Gaurav Diwan'
