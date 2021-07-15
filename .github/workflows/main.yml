@@ -22,3 +22,9 @@ jobs:
           sudo chmod -R 777 _publications/
           ls -ltr ./
           python ./markdown_generator/publications.py
+      - name: Update pages
+        run: |
+          git config --global user.name 'Gaurav Diwan'
+          git config --global user.email 'gauravdiwan89@users.noreply.github.com'
+          git commit -am "Update pages"
+          git push
