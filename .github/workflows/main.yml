@@ -24,7 +24,8 @@ jobs:
           ls -ltr _publications/
       - name: Update pages
         run: |
-          git config --global user.name 'Gaurav Diwan'
-          git config --global user.email 'gauravdiwan89@users.noreply.github.com'
-          git commit -am "Update pages"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Update pages [BOT]"
           git push
