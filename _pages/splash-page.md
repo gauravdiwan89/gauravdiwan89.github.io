@@ -27,7 +27,7 @@ feature_row2:
   - image_path: ../images/og_pa_tree_big.png
     alt: "phylogeny"
     title: "Evolutionary history of biological functions"
-    excerpt: 'Throughout my research career, I have been interested in tracing the evolutionary history of major biological functions. This is also one of the major central questions of Evolutionary Biology. Given the burst of genomic and proteomic information that is available in public repositories such as NCBI and UniProt, we are in an opportune era where one can trace the detailed evolutionary histories of major biological functions by using principles of Orthology, Phylogenetics and Molecular Evolution. For instance, in my PhD work, I traced the [evolutionary history of wobble base pairing in bacteria](https://academic.oup.com/mbe/article/35/8/2046/5017355) and discovered the dynamic evolution of the major enzymes involved in this process. I also found several other genomic correlates that reflect the evolutionary history of these proteins. In my current work, I am now focusing on tracing the evolutionary history of many major functions across the entire tree of life.'
+    excerpt: 'Throughout my research career, I have been interested in tracing the evolutionary history of major biological functions. This is also one of the major central questions of Evolutionary Biology. Given the burst of genomic and proteomic information that is available in public repositories such as NCBI and UniProt, we are in an opportune era where one can trace the detailed evolutionary histories of major biological functions by using principles of Orthology, Phylogenetics and Molecular Evolution. [expand] For instance, in my PhD work, I traced the [evolutionary history of wobble base pairing in bacteria](https://academic.oup.com/mbe/article/35/8/2046/5017355) and discovered the dynamic evolution of the major enzymes involved in this process. I also found several other genomic correlates that reflect the evolutionary history of these proteins. In my current work, I am now focusing on tracing the evolutionary history of many major functions across the entire tree of life. [/expand]'
     #url: ""
     #btn_label: "Read More"
     #btn_class: "btn--primary"
@@ -35,7 +35,7 @@ feature_row3:
   - image_path: ../images/structure.png
     alt: "structure"
     title: "Structural annotations of proteins"
-    excerpt: 'Proteins are the most fundamental molecule in biology. To understand the working of a biological entity, it is important to understand the detailed working of its constituent proteins. A fundamental quest in biology is to elucidate the three dimensional structure of proteins, so as to understand the mechanism of the protein and to allow predicts for the effect of mutations on the working of the protein. Apart from being able to solve the structures using experimental techniques, which could be challenging and time-consuming, a plethora of computational techniques exist that reasonably predict the structure of certain parts of a protein. Most of these computational methods rely on homology, and are thus harder to apply in regions of proteins that are not conserved. I am currently developing methods and workflows that can accurately predict such regions using a mixture of homology and structure based methods. For example, we used this method to accurately [predict the 3D structure of the NBAS protein](https://www.nature.com/articles/s41436-019-0698-4) involved in Infantile Liver Failure Syndrome - 2, allowing collaborators to build a genotype-phenotype map of the disease.'
+    excerpt: 'Proteins are the most fundamental molecule in biology. To understand the working of a biological entity, it is important to understand the detailed working of its constituent proteins. A fundamental quest in biology is to elucidate the three dimensional structure of proteins, so as to understand the mechanism of the protein and to allow predicts for the effect of mutations on the working of the protein. Apart from being able to solve the structures using experimental techniques, which could be challenging and time-consuming, a plethora of computational techniques exist that reasonably predict the structure of certain parts of a protein. Most of these computational methods rely on homology, and are thus harder to apply in regions of proteins that are not conserved. I am currently developing methods and workflows that can accurately predict such regions using a mixture of homology and structure based methods. [expand] For example, we used this method to accurately [predict the 3D structure of the NBAS protein](https://www.nature.com/articles/s41436-019-0698-4) involved in Infantile Liver Failure Syndrome - 2, allowing collaborators to build a genotype-phenotype map of the disease. [/expand]'
     #url: ""
     #btn_label: "Read More"
     #btn_class: "btn--primary"
@@ -60,3 +60,7 @@ feature_row4:
 {% include feature_row id="feature_row3" type="right" %}
 
 {% include feature_row id="feature_row4" type="left" %}
+
+{% include text-expand.html %}
+</body>
+</html>
