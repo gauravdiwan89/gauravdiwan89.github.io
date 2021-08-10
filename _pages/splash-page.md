@@ -34,8 +34,8 @@ feature_row2:
 feature_row3:
   - image_path: ../images/structure.png
     alt: "structure"
-    title: "Structural annotations of proteins"
-    excerpt: 'Proteins are the most fundamental molecule in biology. To understand the working of a biological entity, it is important to understand the detailed working of its constituent proteins. A fundamental quest in biology is to elucidate the three dimensional structure of proteins, so as to understand the mechanism of the protein and to allow predicts for the effect of mutations on the working of the protein. Apart from being able to solve the structures using experimental techniques, which could be challenging and time-consuming, a plethora of computational techniques exist that reasonably predict the structure of certain parts of a protein. Most of these computational methods rely on homology, and are thus harder to apply in regions of proteins that are not conserved. I am currently developing methods and workflows that can accurately predict such regions using a mixture of homology and structure based methods. For example, we used this method to accurately [predict the 3D structure of the NBAS protein](https://www.nature.com/articles/s41436-019-0698-4) involved in Infantile Liver Failure Syndrome - 2, allowing collaborators to build a genotype-phenotype map of the disease.'
+    title: "Impact of mutations on protein function"
+    excerpt: 'Proteins are the most fundamental molecule in biology as many perturbations to these molecules lead to the improper functioning of a biological entity. A fundamental quest in biology is to elucidate the impact of different kinds of changes in the amino acid sequence of proteins on the three-dimensional structure and thereby function of the protein. A plethora of computational methods exist which use experimentally determined strucutres and computationally derived models to try and answer this fundamental question. This field of variant interpretation may also be boosted by the availability of highly accurate computational models courtesy of [AlphaFold](https://alphafold.ebi.ac.uk/). However, recently [we noted and reported that the impact of these models may be lesser than anticipated](https://www.sciencedirect.com/science/article/pii/S0022283621004137). Thus, falling short of solving the three-dimensional structures of thousands of proteins and their respective variants, my aim is to develop a framework that uses the already available structural data (experimental and modelled) to infer how mutations may impact protein structure and function. A useful outcome of this exercise would the ability to build genotype-phenotype maps of genetic disorders, as exemplified by our efforts in [predicting the 3D structure of the NBAS protein](https://www.nature.com/articles/s41436-019-0698-4) involved in Infantile Liver Failure Syndrome - 2.'
     #url: ""
     #btn_label: "Read More"
     #btn_class: "btn--primary"
@@ -49,7 +49,7 @@ feature_row4:
     #btn_class: "btn--primary"
 ---
 
-{% include carousel.html height="35" unit="%" duration="6" transition="fade" %}
+{% include carousel.html height="35" unit="%" duration="6" %}
 
 {% include feature_row id="intro" type="center" %}
 
