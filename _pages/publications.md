@@ -12,3 +12,5 @@ You can also find my articles on <u><a href="https://scholar.google.com/citation
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+
+* - Equal contribution | <i>preprints</i>
