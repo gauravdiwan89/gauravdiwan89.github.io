@@ -18,24 +18,24 @@ Education
 Work experience
 ======
 * 2011 - 2012: Project Student
-  * IISER Pune, India
+  * [IISER Pune](https://www.iiserpune.ac.in/), India
   * Actin remodelling in syncytial <i>Drosophila</i> embryo
-  * Supervisor: Dr. Richa Rikhy
+  * Supervisor: [Dr. Richa Rikhy](https://sites.google.com/view/richarikhylab/home)
 
 * 2012 - 2014: Graduate Trainee
-  * NCBS, India
+  * [NCBS](https://www.ncbs.res.in/), India
   * Fitness effects of tRNA gene knockouts in <i>Escherichia coli</i>
-  * Supervisor: Dr. Deepa Agashe
+  * Supervisor: [Dr. Deepa Agashe](https://adaptationlab.in/)
 
 * 2014 - 2018: PhD Student
-  * NCBS, India
+  * [NCBS](https://www.ncbs.res.in/), India
   * Evolution of bacterial translation
-  * Supervisor: Dr. Deepa Agashe
+  * Supervisor: [Dr. Deepa Agashe](https://adaptationlab.in/)
 
 * 2019 - present: Postdoctoral Fellow
-  * University of Heidelberg, Germany
+  * [University of Heidelberg](https://www.uni-heidelberg.de/en), Germany
   * Effect of genetic variants on protein structure and evolution
-  * Supervisor: Prof. Robert Russell
+  * Supervisor: [Prof. Robert Russell](http://www.russelllab.org/)
   
 Skills
 ======
