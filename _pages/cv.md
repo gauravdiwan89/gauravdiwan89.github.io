@@ -11,49 +11,79 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Sc. in Microbiology, Pune University, India, 2009
+* M.Sc. in Microbiology, M.S. University of Baroda, India, 2011
+* Ph.D in Evolutionary Genomics, NCBS (SASTRA University), India, 2019
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2011 - 2012: Project Student
+  * IISER Pune, India
+  * Actin remodelling in syncytial <i>Drosophila</i> embryo
+  * Supervisor: Dr. Richa Rikhy
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2012 - 2014: Graduate Trainee
+  * NCBS, India
+  * Fitness effects of tRNA gene knockouts in <i>Escherichia coli</i>
+  * Supervisor: Dr. Deepa Agashe
+
+* 2014 - 2018: PhD Student
+  * NCBS, India
+  * Evolution of bacterial translation
+  * Supervisor: Dr. Deepa Agashe
+
+* 2019 - present: Postdoctoral Fellow
+  * University of Heidelberg, Germany
+  * Effect of genetic variants on protein structure and evolution
+  * Supervisor: Prof. Robert Russell
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming 
+  * R - extensive biological data handling, analyses and visualizations using tidyverse, phytools, seqinr, ggplot2
+  * UNIX/Bash
+  * Python - parsing and data handling
+  * High Performance Cluster usage
+  * Web application development - Dash and Shiny
+
+* Comparative Phylogenetics 
+  * Ancestral reconstruction
+  * Phylogenetic regression
+  * Species tree building 
+  * Hypothesis testing
+
+* Bioinformatics
+  * Comparative genomics
+  * Orthology inferences - OMA, OrthoFinder, HMMER suite 
+  * Structural bioinformatics - HHPred; PyMol; NGL
+
+* Proteomics
+  * Domain annotations 
+  * Customized MS-data analysis (alternatives to Perseus)
+  * Statistical testing
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+#Talks
+#======
+#  <ul>{% for post in site.talks %}
+#    {% include archive-single-talk-cv.html %}
+#  {% endfor %}</ul>
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Manuscript Review - Molecular Biology and Evolution; Genome Biology and Evolution; G3: Genes, Genomes, Genetics
+* Mentoring - Mentored two PhD students, three Masters’ thesis students, one Bachelors’ thesis student and two summer interns
+* Programming solutions
+
+
